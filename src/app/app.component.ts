@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.loadGoogleSignIn();
   }
-
+//this code fully implement the sign up with thte google
   loadGoogleSignIn(): void {
     const script = document.createElement('script');
     script.src = 'https://accounts.google.com/gsi/client';
